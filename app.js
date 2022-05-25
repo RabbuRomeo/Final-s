@@ -6,7 +6,7 @@ var path = require('path');
 // const keys = require('./keys.json')
 const { resolve4 } = require('dns');
 
-
+const port = process.env.PORT || 3030;
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
@@ -47,6 +47,10 @@ app.get('/product', function (req, res) {
   //   res.render('common/nav.ejs');
   // }); 
 
-app.listen(3030 , (req ,res)=>{
-   console.log('port is running at  3030');
+// app.listen(3030 , (req ,res)=>{
+//    console.log('port is running at  3030');
+// })
+
+app.listen(port , (req ,res)=>{
+  console.log('port is running at  ${port}');
 })
