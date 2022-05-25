@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Page</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <%- include ('../partials/nav') %>
+
+    <div class="contactMain">
+        <!----------- Section One ----------->
+
+        <div class="contactHero">
+            <div class="fCSS">
+                <h1 class="head">
+                    Message to us we will get back to you.
+                </h1>
+            </div>
+            <div class="fCSS">
+                <img src="../../images/contact/oneImg.png" />
+            </div>
+        </div>
+
+        <!----------- Section Two ----------->
+
+        <div class="formSectionMain">
+            <div class="subSForm">
+
+                <h2 class="formHeader">We’d Love To Hear From You</h2>
+                <h2 class="getInTouch">GET IN TOUCH</h2>
+                <p class="contactDescript">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare elementum, in mi neque, tellus molestie egestas.
+                </p>
+                <div class="anchorHolders nonemob">
+                    <div class="anPNoNe">
+                        <div class="imgPH">
+                            <img src="../../images/contact/emailIcon.png" alt="emailicon"/>
+                        </div>
+                        <div>
+                            <a href="mailto:service@sutlejsoft@gmail.com">
+                                service@sutlejsoft@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                    <div class="anPNoNe">
+                        <div class="imgPH">
+                            <img src="../../images/contact/locationIcon.png" alt="emailicon"/>
+                        </div>
+                        <div>
+                            <p>
+                                756, 9th Cross Rd, Stage 3, Indiranagar, Bengaluru, Karnataka 560038
+                            </p>
+                        </div>
+                    </div>
+                    <div class="anPNoNe">
+                        <div class="imgPH">
+                            <img src="../../images/contact/telephone.png" alt="emailicon"/>
+                        </div>
+                        <div>
+                            <a href="tel:+91  928 928 9248">
+                                +91  928 928 9248
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="socialFlex nonemob">
+                    <a href="#">
+                        <img src="../../images/contact/fb.png" />
+                    </a>
+                    <a href="#">
+                        <img src="../../images/contact/insta.png" />
+                    </a>
+                    <a href="#">
+                        <img src="../../images/contact/twitter.png" />
+                    </a>
+                </div>
+
+            </div>
+            <div class="subSForm">
+                <div class="formMainComponent">
+                    <h2 class="formHead">Write to Us Here...</h2>
+                    <form action="" method="post">
+                        <input type="text" placeholder="Name" name="Name" />
+                        <input type="email" placeholder="Mail" name="Email" />
+                        <input type="tel" placeholder="Phone" name="Phone" />
+                        <textarea placeholder="write your message here.."></textarea>
+                        <button class="sendMsg">Send Message</button>
+                    </form>
+                </div>
+                <div class="mobDisp">
+                    <div class="anchorHolders">
+                        <div class="anPNoNe">
+                            <div class="imgPH">
+                                <img src="../../images/contact/emailIcon.png" alt="emailicon"/>
+                            </div>
+                            <div class="anchorWid">
+                                <a href="mailto:service@sutlejsoft@gmail.com">
+                                    service@sutlejsoft@gmail.com
+                                </a>
+                            </div>
+                        </div>
+                        <div class="anPNoNe">
+                            <div class="imgPH">
+                                <img src="../../images/contact/locationIcon.png" alt="emailicon"/>
+                            </div>
+                            <div class="anchorWid">
+                                <p>
+                                    756, 9th Cross Rd, Stage 3, Indiranagar, Bengaluru, Karnataka 560038
+                                </p>
+                            </div>
+                        </div>
+                        <div class="anPNoNe">
+                            <div class="imgPH">
+                                <img src="../../images/contact/telephone.png" alt="emailicon"/>
+                            </div>
+                            <div class="anchorWid">
+                                <a href="tel:+91  928 928 9248">
+                                    +91  928 928 9248
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="socialFlex">
+                        <a href="#">
+                            <img src="../../images/contact/fb.png" />
+                        </a>
+                        <a href="#">
+                            <img src="../../images/contact/insta.png" />
+                        </a>
+                        <a href="#">
+                            <img src="../../images/contact/twitter.png" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%- include ('../partials/footer') %>
+
+</body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</html>

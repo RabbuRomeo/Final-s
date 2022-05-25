@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.careerMain{
+}
+
+.careerMain .herocareer{
+    /* background-color: #E5E5E5; */
+    background-color: #E4E4EF;
+    padding: 2% 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.herocareer .sideImgContainers{
+    width: 19%;
+}
+
+.herocareer .MainDivHero{
+    width: 50%;
+    background-image: url('../images/Career/lapbgimg.png');
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: 100% 100%;
+    height: 500px;
+}
+
+
+.MainDivHero .heroHead{
+    text-align: center;
+    color: #141BCC;
+}
+
+.MainDivHero .headCareer{
+    text-align: center;
+    color: #141BCC;
+}
+
+.sideImgContainers .hlimgOne,.sideImgContainers .hlimgTwo, .sideImgContainers .hlimgThree{
+    width: 100%;
+}
+
+.sectiontwo{
+    padding: 2% 12%;
+}
+
+.sectiontwo h3{
+    font-size: 40px;
+    color: #151CC9;
+    font-weight: 600;
+    margin: 4% 0%;
+}
+
+.sectiontwo p{
+    font-size: 18px;
+    line-height: 150%;
+    margin: 3% 0%;
+}
+
+.sectionThree{
+    padding: 2% 0%;
+}
+
+.sectionThree .sectionThreeHead{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.sectionThree .flexedCrads{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+    margin: 3% 0% 0% 0%;
+    flex-wrap: wrap;
+}
+
+.flexedCrads .careerCards{
+    width: 28%;
+    background-color: #E4E4EF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2% 0%;
+    margin: 0% 0% 3% 0%;
+}
+
+.careerCards .headCareerType{
+    font-size: 24px;
+}
+
+.careerCards .carrerCardImg{
+    width: 70%;
+}
+
+
+
+/************************* Media Queries *************************/
+
+@media screen and (max-width:1280px) {
+    .sectiontwo h3{
+        font-size: 35px;
+    }
+    .herocareer .MainDivHero {
+        height: 420px;
+        background-position: 0px 35px;
+    }
+    .herocareer .sideImgContainers {
+        width: 23%;
+    }
+}
+
+
+@media screen and (max-width:1100px) {
+    .sectionThree .sectionThreeHead {
+        font-size: 27px;
+    }
+    .sectiontwo h3 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .flexedCrads .careerCards{
+        width: 48%;
+    }
+    .herocareer .MainDivHero {
+        height: 358px;
+        background-position: -53px 35px;
+        background-size: 126% 100%;
+    }
+    .sectiontwo h3 {
+        font-size: 24px;
+    }
+    .sectionThree .sectionThreeHead {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .herocareer .MainDivHero {
+        height: 280px;
+        background-position: -27px 35px;
+        background-size: 119% 100%;
+    }
+    .MainDivHero .heroHead {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .sectiontwo h3 {
+        font-size: 20px;
+    }
+    .sectionThree .sectionThreeHead {
+        font-size: 21px;
+    }
+    .careerCards .headCareerType {
+        font-size: 19px;
+    }
+    .flexedCrads .careerCards{
+        padding: 5% 0%;
+    }
+    .sectiontwo p {
+        font-size: 15px;
+    }
+
+
+    /*  */
+
+    .herocareer .MainDivHero{
+        width: 100%;
+        /* background-size: 100% 100%;
+        background-position: 0px 28px; */
+        background-size: 113% 100%;
+        background-position: -19px 28px;
+    }
+    .herocareer .sideImgContainers {
+        display: none;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .sectionThree .sectionThreeHead {
+        font-size: 19px;
+    }
+    .careerCards .headCareerType {
+        font-size: 17px;
+    }
+    .sectionThree{
+        margin: 2% 0% 0% 0%;
+    }
+}

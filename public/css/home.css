@@ -1,0 +1,694 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #FACF11;
+  }
+
+/* Hero - Section */
+
+  .hero{
+      align-items: center;
+      background-image: url("/images/hero.png");
+    background-size: contain;
+    background-repeat: round;
+  }
+  .content{
+    padding: 0% 14% 0% 14%;
+    width: 65%;
+  }
+  .content h1{
+      font-weight: 600;
+      font-size: 50px;
+      color: white;
+      text-transform: uppercase;
+      line-height: 1;
+      text-shadow: 2px 2px #080101;
+  }
+  .content p{
+      font-weight: 100;
+      font-size: 16px;
+      color: white;
+      padding-top: 2em;
+  }
+  .container.hero button{
+    background-color: #141BCC;
+    color: white;
+    margin-top: 7%;
+    border: none;
+    padding: 12px 38px;
+    border-radius: 4px;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+  }
+
+  .img-wrapper{
+    padding: 10% 0% 1% 2%;
+  width: 35%;
+  }
+  
+  .img-wrapper .container{
+    /* padding: 0% 23%; */
+  }
+  
+  .owl-carousel .owl-item .card>img{
+    /* width: 32em; */
+    width: 100%;
+  }
+  
+  .img-wrapper .card{
+  }
+
+  .owl-carousel .owl-nav button span{
+    display: none;
+  }
+  
+  .row{
+    display: flex;
+}
+
+
+/* Hero - Section - Mobile */
+
+@media screen and (max-width: 1400px) and (min-width: 1025px)  {
+  .content h1 {
+    font-size: 2em;
+}
+.content {
+  padding: 6% 14% 0% 9%;
+}
+
+}
+
+@media screen and (max-width:1024px){
+
+  .hero{
+    padding-bottom: 4%;
+  }
+  .content h1 {
+    font-size: 30px;
+}
+
+.content p {
+  font-size: 14px;
+}
+.content {
+  padding: 6% 14% 0% 9%;
+}
+.owl-carousel .owl-item .card>img {
+  width: 100%;
+}
+.img-wrapper {
+  padding: 14% 0% 1% 2%;
+  width: 35%;
+}
+.container.hero button {
+  font-size: 13px;
+}
+}
+@media screen and (max-width:850px) {
+  .hero {
+    padding-top: 4%;
+}
+}
+@media screen and (max-width:768px){
+  /* .hero{
+      flex-wrap: wrap-reverse;
+      gap: 2em;
+      padding: 2em 0;
+  } */
+  .img-wrapper{
+    display: none;
+  }
+  .hero {
+    padding-top: 10%;
+}
+.content {
+  padding: 6% 0% 0% 9%;
+  width: 90%;
+}
+.container.hero button {
+  margin-bottom: 12%;
+}
+.content h1 {
+  font-size: 34px;
+}
+.hero {
+  padding-bottom: 4%;
+}
+}
+@media screen and (max-width:504px){
+  .hero {
+    background-size: cover;
+}
+.hero {
+  padding-bottom: 8%;
+}
+.content {
+  padding-top: 16%;
+}
+}
+@media screen and (max-width:451){
+  .hero {
+    padding-bottom: 12%;
+}
+}
+@media screen and (max-width:434px) {
+  .content h1 {
+    font-size: 28px;
+}
+@media screen and (max-width:357px) {
+  .content h1 {
+    font-size: 25px;
+}
+}
+}
+
+/* Section 2 */
+
+.about{
+  /* background-color: ; */
+}
+.about-content{
+    max-width: 72%;
+    margin: 0 auto;
+    padding-bottom: 6%;
+}
+.about-content img{
+  margin-top: -23%;
+  width: 19%;
+  position: absolute;
+}
+.about-content h2{
+    color: #141BCC;
+    font-size: 40px;
+    padding-top: 8%;
+    margin-bottom: 8%;
+    margin-left: 4%;
+}
+
+/* Section 2 Mobile  */
+
+@media screen and (max-width:1024px) {
+  .about-content h2 {
+    font-size: 30px;
+    margin-left: 3%;
+}
+
+}
+@media screen and (max-width: 950px){
+  .about-content h2 {
+    margin-left: 2%;
+}
+}
+@media screen and (max-width:900px){
+  .about-content img {  
+    margin-top: -23%;
+    width: 22%;
+}
+}
+@media screen and (max-width:768px) {
+  .about-content {
+    max-width: 82%; 
+}
+.about-content img {
+  margin-top: -27%;
+  width: 23%;
+}
+
+}
+
+@media screen and (max-width:730px){
+  .about-content h2 {
+    font-size: 25px;
+    margin-left: 3%;
+}
+}
+@media screen and (max-width:650px){
+  .about-content img {
+    margin-top: -28%;
+    width: 26%;
+}
+}
+@media screen and (max-width:551px){
+  .about-content img {
+    margin-top: -29%;
+    width: 29%;
+}
+.about-content p{
+  padding-top: 6%;
+  text-align: justify;
+}
+.about-content h2 {
+  font-size: 23px;
+}
+}
+
+@media screen and (max-width:450px){
+
+  .about-content img {
+    margin-top: -34%;
+    width: 35%;
+}
+.about-content h2 {
+  margin-left: 4%;
+}
+}
+
+
+
+
+/************************* Section 3 *************************/
+
+.StoryVision{
+  padding: 6% 14.5%;
+  background-color: #FDD300;
+  padding-top: 6%;
+}
+
+.StoryVision #sync2{
+  margin: 0% 0% 3% 0%;
+}
+
+.StoryVision .navButtonsStory{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0% 5%;
+  margin: 0% 0% 2% 0%;
+}
+
+
+.StoryVision .navbtn{
+  background-color: transparent;
+  border: none;
+  color: #141ACC;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 1%;
+  border-radius: 0px;
+  /* opacity: 60%; */
+}
+
+.StoryVision .navbtn:hover{
+  color: white;
+  font-weight: 600;
+  /* font-size:25px ; */
+  cursor: pointer;
+}
+
+.StoryVision .owl-stage{
+  margin: auto;
+}
+
+.StoryVision .owl-stage .item{
+  /* text-align: center; */
+}
+
+.StoryVision .section-imgparent{
+  background-image: url('../../images/home/visionBack.png');
+  padding: 10% 6% 10% 6%;
+  background-size: 100% 100%;
+}
+
+.StoryVision .section-imgparent .carHeader{
+  color: #141ACC;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: left;
+  margin: 0% 0% 3% 0%;
+}
+
+
+.StoryVision .section-imgparent p{
+  text-align: left;
+  font-size: 16px;
+  line-height: 200%;
+}
+
+.StoryVision .slideContentHolder{
+  height: 28em;
+}
+
+.StoryVision .fourBlock{
+  text-align: center;
+  padding: 2% 0%;
+}
+
+.StoryVision .owl-carousel{
+  position: relative;
+}
+
+.StoryVision .owl-carousel .owl-nav button svg{
+  display: none;
+}
+
+.StoryVision .owl-carousel .owl-nav .owl-next{
+  top: -7.5%;
+  right: 45%;
+  position: absolute;
+  width: 20px;
+  height: 15px;
+  background-image: url('../../images/home/right\ aroow.png');
+  background-size: 100% 100%;
+
+}
+.StoryVision .owl-carousel .owl-nav .owl-prev{
+  top: -7.5%;
+  left: 45%;
+  position: absolute;
+  width: 20px;
+  height: 15px;
+  background-image: url('../../images/home/Left\ arrow.png');
+  background-size: 100% 100%;
+}
+
+.StoryVision .owl-theme .owl-nav [class*=owl-prev]:hover{
+  background-image: url('../../images/home/Left\ arrow.png');
+  background-size: 100% 100%;
+  background-color: transparent;
+}
+
+.StoryVision .owl-theme .owl-nav [class*=owl-next]:hover{
+  background-image: url('../../images/home/right\ aroow.png');
+  background-size: 100% 100%;
+  background-color: transparent;
+}
+
+
+@media screen and (max-width:1366px) {
+  .StoryVision .owl-carousel .owl-nav .owl-prev, .StoryVision .owl-carousel .owl-nav .owl-next{
+    top: -7%;
+  }
+  .StoryVision .section-imgparent .carHeader{
+    font-size: 30px;
+  }
+  .StoryVision .section-imgparent p{
+    line-height: 150%;
+    font-size: 15px;
+  }
+}
+
+
+@media screen and (max-width:1200px) {
+  .StoryVision .owl-carousel .owl-nav .owl-prev, .StoryVision .owl-carousel .owl-nav .owl-next {
+    top: -8.5%;
+  }
+  .StoryVision .owl-carousel .owl-nav .owl-next{
+    right: 41%;
+  }
+  .StoryVision .owl-carousel .owl-nav .owl-prev{
+    left: 41%;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .StoryVision .owl-carousel .owl-nav .owl-prev{
+    left: 35%;
+  }
+  .StoryVision .owl-carousel .owl-nav .owl-next{
+    right: 35%;
+  }
+  .StoryVision .owl-carousel .owl-nav .owl-prev, .StoryVision .owl-carousel .owl-nav .owl-next {
+    top: -7.5%;
+  }
+  .StoryVision .section-imgparent .carHeader {
+    font-size: 26px;
+  }
+  .StoryVision .section-imgparent p {
+    line-height: 150%;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:925px){
+  .StoryVision .slideContentHolder{
+    height: 400px !important;
+    overflow-y: scroll;
+  }
+}
+
+
+@media screen and (max-width:750px) {
+  .StoryVision .section-imgparent .carHeader {
+    font-size: 25px;
+  }
+
+  .StoryVision .slideContentHolder{
+    height: 200px !important;
+    overflow-y: scroll;
+  }
+
+  .StoryVision .owl-carousel .owl-nav .owl-prev, .StoryVision .owl-carousel .owl-nav .owl-next {
+    top: -9.5%;
+  }
+
+  .StoryVision #sync2{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:540px) {
+  .StoryVision .section-imgparent .carHeader {
+    font-size: 22px;
+  }
+  .StoryVision {
+    padding: 6% 8.5%;
+  }
+}
+
+
+@media screen and (max-width:480px) {
+  .StoryVision .section-imgparent p {
+    font-size: 13px;
+  }
+  .StoryVision .section-imgparent .carHeader {
+    font-size: 20px;
+  }
+  .StoryVision .owl-carousel .owl-nav .owl-next {
+    right: 27%;
+  }
+  .StoryVision .owl-carousel .owl-nav .owl-prev {
+    left: 27%;
+  }
+}
+
+
+
+
+/* Section 4 */
+
+
+.clientTest{
+  /* background-color: #E5E5E5; */
+  padding: 4% 0%;
+  background-color: #0F9FFA;
+}
+
+.main .subHeads{
+  /* color: #1215F6; */
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  padding: 0% 0% 0% 13%;
+  margin: 0% 0% 3% 0%;
+}
+
+.main .subHeads.alignRight{
+  text-align: center;
+  padding: 0%;
+}
+
+.clientTest .carContainer{
+  padding: 0% 23%;
+}
+
+.clientTest .testClientCard{
+  display: flex;
+  /* border-left: 13px solid #4455FC; */
+  /* border-left: 13px solid white; */
+}
+
+.owl-carousel .owl-item .testClientCard>img{
+  width: 30%;
+}
+
+.testClientCard .testClientContent{
+  background-color: #F5F5F5;
+  width: 70%;
+  padding: 3% 3%;
+}
+
+.testClientContent .clientName{
+  font-size: 25px;
+  /* color: #141BCC; */
+  color: #0F9FFA;
+  font-weight: 700;
+  margin: 3% 0%;
+  /* padding: 0% 0% 0% 2%; */
+}
+
+.testClientContent .clientContent{
+  font-size: 20px;
+  line-height: 150%;
+  height: 180px;
+  overflow-y: scroll;
+} 
+
+
+.clientTest .owl-carousel .owl-nav button span{
+  display: none;
+}
+
+@media screen and (max-width:1300px) {
+  .main .subHeads{
+    font-size: 33px;
+  }
+  .testClientContent .clientContent{
+    font-size: 18px;
+  }
+  .clientTest ::-webkit-scrollbar {
+    width: 2px;
+  }
+  .clientTest ::-webkit-scrollbar-thumb {
+    background: #0F9FFA; 
+  }
+}
+
+@media screen and (max-width:1100px) {
+  .clientTest .carContainer {
+    padding: 0% 20%;
+  }
+}
+
+@media screen and (max-width:990px) {
+  .testClientCard .testClientContent {
+    width: 65%;
+  }
+  .owl-carousel .owl-item .testClientCard>img {
+    width: 35%;
+  }
+  .testClientContent .clientContent {
+    font-size: 17px;
+    height: 150px;
+  }
+}
+
+
+@media screen and (max-width:900px) {
+  .main .subHeads {
+    font-size: 30px;
+  }
+  .testClientContent .clientName {
+    font-size: 22px;
+  }
+}
+
+
+@media screen and (max-width:800px) {
+  .clientTest .carContainer {
+    padding: 0% 15%;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .main .subHeads {
+    font-size: 26px;
+    margin: 2% 0% 5% 0%;
+  }
+  .testClientContent .clientName {
+    font-size: 20px;
+  }
+  .testClientContent .clientContent {
+    font-size: 16px;
+    margin: 5% 0% 3% 0%;
+  }
+}
+
+
+@media screen and (max-width:540px) {
+  /* .owl-carousel .owl-item .testClientCard>img {
+    width: 40%;
+  }
+  .testClientCard .testClientContent {
+    width: 60%;
+  } */
+  .clientTest .carContainer {
+    padding: 0% 10%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .testClientContent .clientContent {
+    font-size: 14px;
+    height: 110px;
+  }
+  .testClientContent .clientName {
+    font-size: 18px;
+  }
+  .main .subHeads {
+    font-size: 24px;
+    padding: 0% 0% 0% 9%;
+  }
+  .clientTest .carContainer {
+    padding: 0% 10%;
+    margin: 10% 0% 0% 0%;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .main .subHeads {
+    font-size: 22px;
+  }
+  .testClientContent .clientContent {
+    font-size: 12px;
+    height: 95px;
+  }
+}
+
+/* Section 5 */
+
+.OurTeam{
+  padding: 3% 0% 0% 0%;
+  background-color: #963596;
+}
+
+/* .OurTeam h2{
+  color: #1215F6;
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  padding: 0% 0% 0% 0%;
+  margin: 0% 0% 2% 0%;
+  text-align: center;
+} */
+
+.OurTeam .imgHolder{
+  /* text-align: center; */
+}
+
+.imgHolder .TeamPhoto{
+  width: 66%;
+  display: block;
+  margin: auto;
+}
+
+
+@media screen and (max-width:640px) {
+  .imgHolder .TeamPhoto {
+    width: 75%;
+  }
+}

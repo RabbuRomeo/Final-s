@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.contactMain{
+    padding: 0% 0%;
+}
+
+.contactMain .contactHero{
+    background-color: #E5E5E5;
+    background-color: #E4E4EF;
+    padding: 3% 3% 3% 3%;
+    align-items: center;
+    display: flex;
+    height: 80vh;
+}
+
+.contactHero .fCSS{
+    width: 50%;
+}
+
+.contactHero .fCSS:nth-of-type(1){
+    padding: 0% 5% 0% 8%;
+}
+
+.contactHero .fCSS:nth-of-type(2){
+    text-align: center;
+}
+
+.fCSS .head{
+    font-size: 40px;
+    color: #141BCC;
+}
+
+.fCSS img{
+    width: 80%;
+}
+
+
+.formSectionMain{
+    padding: 4% 7%;
+    display: flex;
+}
+
+.formSectionMain .subSForm{
+    width: 50%;
+}
+
+.subSForm .formHeader{
+    font-family: 'Overlock', cursive;
+    font-size: 48px;
+    color: #141BCC;
+}
+
+.subSForm .getInTouch{
+    font-size: 36px;
+    font-weight: 600;
+    color: #141BCC;
+    margin: 6% 0%;
+}
+
+.subSForm .contactDescript{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.subSForm .anchorHolders{
+    margin: 5% 0% 0% 0%;
+}
+
+.anchorHolders .anPNoNe{
+    display: flex;
+    align-items: center;
+    margin: 6% 0%;
+    padding: 0% 15% 0% 0%;
+}
+
+.anPNoNe .imgPH{
+    width: 4%;
+    margin: 0% 5% 0% 0%;
+}
+
+.imgPH img{
+    width: 100%;
+}
+
+.anPNoNe a, .anPNoNe p{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    line-height: 180%;
+}
+
+.subSForm .socialFlex{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+}
+
+.socialFlex  a{
+    width: 17%;
+    text-decoration: none;
+}
+
+.socialFlex  a img{
+    width: 100%;
+}
+
+.subSForm .formMainComponent{
+    width: 70%;
+    margin: auto;
+    padding: 8% 5% 5% 5%;
+    border-radius: 15px;
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.15), inset 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formMainComponent .formHead{
+    color: #2E195C;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.formMainComponent form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5% 0% 0% 0%;
+}
+
+.formMainComponent form input, .formMainComponent form textarea{
+    background: rgba(20, 27, 204, 0.1);
+    padding: 3% 2%;
+    font-size: 17px;
+    margin: 3% 0%;
+    border-radius: 10px;
+    max-width: 100%;
+    min-width: 100%;
+    border: none;
+    color: black;
+}
+
+.formMainComponent form textarea{
+    min-height: 100px;
+}
+
+.formMainComponent .sendMsg{
+    background-color: #141BCC;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 2% 5%;
+    border-radius: 20px;
+    margin: 8% 0% 2% 0%;
+}
+
+.subSForm .mobDisp{
+    display: none;
+}
+
+
+/********************* Media Queries *********************/
+
+@media screen and (max-width:1280px) {
+    .subSForm .formHeader {
+        font-size: 40px;
+    }
+    .subSForm .getInTouch {
+        font-size: 30px;
+    }
+    .subSForm .contactDescript {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width:990px) {
+    .fCSS .head {
+        font-size: 34px;
+    }
+    .subSForm .formMainComponent{
+        width: 85%;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .subSForm .contactDescript {
+        font-size: 18px;
+    }
+    .anPNoNe a, .anPNoNe p {
+        font-size: 16px;
+    }
+    .subSForm .formHeader {
+        font-size: 32px;
+    }
+    .subSForm .getInTouch {
+        font-size: 25px;
+    }
+    .formMainComponent .formHead {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .contactMain .contactHero{
+        flex-direction: column-reverse;
+        height: fit-content;
+    }
+    .contactHero .fCSS {
+        width: 100%;
+    }
+    .contactHero .fCSS:nth-of-type(1) {
+        padding: 0% 8% 0% 8%;
+        margin: 12% 0%;
+    }
+    .fCSS img {
+        width: 55%;
+    }
+    .formSectionMain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4% 10%;
+    }
+    .formSectionMain .subSForm {
+        width: 100%;
+        margin: 3% 0%;
+    }
+    .subSForm .mobDisp{
+        display: block;
+        padding: 0% 8%;
+    }
+    .subSForm .anchorHolders.nonemob, .subSForm .socialFlex.nonemob {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:640px) {
+    .fCSS .head {
+        font-size: 30px;
+    }
+    .subSForm .contactDescript {
+        font-size: 16px;
+    }
+    .anPNoNe .imgPH {
+        width: 5%;
+    }
+    .subSForm .socialFlex {
+        width: 34%;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .subSForm .formHeader {
+        font-size: 25px;
+    }
+    .subSForm .getInTouch {
+        font-size: 19px;
+    }
+    .subSForm .formMainComponent {
+        width: 100%;
+    }
+    .subSForm .mobDisp {
+        padding: 0% 2%;
+    }
+    .subSForm .mobDisp {
+        margin: 8% 0% 0% 0%;
+    }
+    .anPNoNe .anchorWid{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width:440px) {
+    .fCSS .head {
+        font-size: 24px;
+    }
+    .subSForm .formHeader {
+        font-size: 22px;
+    }
+    .subSForm .getInTouch {
+        font-size: 17px;
+    }
+    .subSForm .contactDescript {
+        font-size: 15px;
+    }
+    .formMainComponent .formHead {
+        font-size: 18px;
+    }
+    .anPNoNe .imgPH {
+        width: 7%;
+    }
+    .subSForm .socialFlex {
+        width: 43%;
+        margin: 5% 0%;
+    }
+}
