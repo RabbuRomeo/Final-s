@@ -180,7 +180,9 @@
 /* Section 2 */
 
 .about{
-  /* background-color: ; */
+  background-color: #FF8C32;
+  color: white;
+
 }
 .about-content{
     max-width: 72%;
@@ -275,8 +277,9 @@
 
 .StoryVision{
   padding: 6% 14.5%;
-  background-color: #FDD300;
+  background-color: #61A4BC;
   padding-top: 6%;
+  color: white;
 }
 
 .StoryVision #sync2{
@@ -319,7 +322,7 @@
 
 .StoryVision .section-imgparent{
   background-image: url('../../images/home/visionBack.png');
-  padding: 10% 6% 10% 6%;
+  padding: 6% 6% 6% 6%;
   background-size: 100% 100%;
 }
 
@@ -495,7 +498,7 @@
 .clientTest{
   /* background-color: #E5E5E5; */
   padding: 4% 0%;
-  background-color: #0F9FFA;
+  background-color: #F24C4C;
 }
 
 .main .subHeads{

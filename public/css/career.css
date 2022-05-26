@@ -11,7 +11,7 @@
 
 .careerMain .herocareer{
     /* background-color: #E5E5E5; */
-    background-color: #E4E4EF;
+    background-color: #1C0C5B;
     padding: 2% 0%;
     display: flex;
     justify-content: space-between;
@@ -50,11 +50,13 @@
 
 .sectiontwo{
     padding: 2% 12%;
+    background-color: #34BE82;
+    color: white;
 }
 
 .sectiontwo h3{
     font-size: 40px;
-    color: #151CC9;
+    color: #1C0C5B;
     font-weight: 600;
     margin: 4% 0%;
 }
@@ -67,6 +69,7 @@
 
 .sectionThree{
     padding: 2% 0%;
+    background-color: #F78812;
 }
 
 .sectionThree .sectionThreeHead{
