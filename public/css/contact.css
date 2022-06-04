@@ -69,6 +69,7 @@
 .hr1 {
   border: 1px solid black;
   width: 3rem;
+  background-color: black;
 }
 
 .hr2 {
@@ -157,9 +158,12 @@
 }
 
 .formMainComponent .formHead {
-  color: #2e195c;
+  color: black;
+  margin-top: 1rem;
   font-size: 25px;
   font-weight: 600;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
 }
 
 .formMainComponent form {
