@@ -32,7 +32,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/career', function (req, res) {
-  res.render('pages/careers.ejs');
+  res.render('pages/career-new.ejs');
 });
 
 app.get('/contact', function (req, res) {
